@@ -780,3 +780,11 @@ body {
   left: 12px;
   transform: translateY(-50%);
 }
+
+.order-input:focus {
+  border-color: var(--accent-color);
+}
+.order-input:focus ~ .icon {
+  fill: var(--accent-color);
+  color: var(--accent-color);
+}
